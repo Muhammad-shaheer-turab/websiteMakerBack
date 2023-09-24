@@ -1,0 +1,40 @@
+@import url("https: //cdn.quilljs.com/1.2.6/quill.snow.css");
+
+
+div#added-topteller {
+    background-color: lightblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div#added-topteller * {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+div#added-topteller a {
+    color: darkblue;
+    text-shadow: 1px 1px 2px white;
+}
+
+div#added-bottomteller {
+    background-color: lightcoral;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div#added-bottomteller * {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+div#added-bottomteller a {
+    color: darkblue;
+    text-shadow: 1px 1px 2px white;
+}
