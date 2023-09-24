@@ -120,4 +120,4 @@ app.get("/list", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
 // app.listen(PORT, () => {
 //     console.log(`App started on port: ${PORT}`)
 // })
-module.exports = app;
+exports.default = app;
