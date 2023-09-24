@@ -116,8 +116,7 @@ app.get("/list", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
         return res.send("<h1>An error occoured</h1>");
     }
 }));
-// app.use("/", express.static(path.join(__dirname, "public/")))
-// app.listen(PORT, () => {
-//     console.log(`App started on port: ${PORT}`)
-// })
-exports.default = app;
+app.use("/", express_1.default.static(node_path_1.default.join(__dirname, "public/")));
+app.listen(PORT, () => {
+    console.log(`App started on port: ${PORT}`);
+});

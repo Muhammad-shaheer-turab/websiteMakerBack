@@ -107,10 +107,8 @@ app.get("/list", async (req, res) => {
     }
 })
 
-// app.use("/", express.static(path.join(__dirname, "public/")))
+app.use("/", express.static(path.join(__dirname, "public/")))
 
-// app.listen(PORT, () => {
-//     console.log(`App started on port: ${PORT}`)
-// })
-
-export default app
+app.listen(PORT, () => {
+    console.log(`App started on port: ${PORT}`)
+})
